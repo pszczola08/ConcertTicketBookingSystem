@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ConcertManager;
 
-Console.WriteLine("Hello, World!");
+class Program {
+    public static void Main(string[] args) {
+        Manager manager = new();
+        bool finish = false;
+        while (true) {
+            manager.Choose();
+        }
+    }
+}
